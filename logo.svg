@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 825 158">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st1 {
+        font-size: 20.19px;
+        letter-spacing: 0em;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        fill: #231f20;
+      }
+
+      .st1, .st4 {
+        font-family: Georgia, Georgia;
+      }
+
+      .st5 {
+        fill: url(#linear-gradient);
+      }
+
+      .st6 {
+        letter-spacing: .01em;
+      }
+
+      .st6, .st7 {
+        fill: #2e8fbe;
+        font-family: Georgia-Bold, Georgia;
+        font-size: 47.12px;
+      }
+
+      .st7 {
+        letter-spacing: 0em;
+      }
+
+      .st2 {
+        letter-spacing: .01em;
+      }
+
+      .st2, .st3 {
+        font-family: Georgia-BoldItalic, Georgia;
+        font-size: 33.66px;
+        font-style: italic;
+      }
+
+      .st3 {
+        letter-spacing: 0em;
+      }
+
+      .st8 {
+        font-weight: 700;
+      }
+
+      .st4 {
+        font-size: 16.16px;
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="135.17" y1="69.49" x2="267.69" y2="69.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#181718"/>
+      <stop offset=".5" stop-color="#312f2f"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="37" y1="73" x2="74" y2="73" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <path class="st5" d="M139.88,34.86l.08,1.99,2.46.34c5.02.7,9.16,2.25,12.5,4.69,2.51,1.84,7.95,6.88,14.91,13.87l6.08,6.08-1.04,1.24c-.59.67-5.18,6.37-10.2,12.63-12.63,15.74-16.05,19.77-18.32,21.74-2.41,2.04-5.95,3.88-8.33,4.3-.93.15-1.94.34-2.28.39-.52.1-.57.26-.57,2.04v1.94h28.96l3.11-4.63c1.71-2.54,4.25-6.16,5.64-8.08,2.25-3.05,11-14.21,15.06-19.2l1.42-1.73h2.74v12.37q0,12.4-.6,13.51c-.96,1.84-3.86,3.11-8.02,3.57l-1.6.18-.08,1.99-.08,2.02h39.39l-.08-2.02-.08-1.99-1.6-.18c-4.17-.47-7.07-1.73-8.02-3.57q-.6-1.11-.6-13.51v-12.37h2.74l1.42,1.73c4.06,5,12.81,16.15,15.06,19.2,1.4,1.92,3.93,5.54,5.64,8.08l3.11,4.63h28.96v-1.94c0-1.79-.05-1.94-.57-2.04-.34-.05-1.35-.23-2.28-.39-2.38-.41-5.93-2.25-8.33-4.3-2.28-1.97-5.69-6-18.32-21.74-5.02-6.26-9.6-11.96-10.2-12.63l-1.04-1.24,6.08-6.08c6.96-6.99,12.4-12.04,14.91-13.87,3.34-2.43,7.48-3.99,12.5-4.69l2.46-.34.16-3.99h-31.86v1.91c0,2.15.08,2.23,1.89,2.23s4.66.72,5.15,1.29c1.89,2.3-5.41,11.26-21.35,26.19-3.86,3.62-4.11,3.83-5.1,3.83h-1.06l.08-13.74.08-13.72,1.06-.98c1.27-1.19,3.13-1.94,6.37-2.51,1.32-.23,2.67-.46,3-.52.52-.1.57-.26.57-2.04v-1.94h-40.89v1.94c0,1.79.05,1.94.6,2.04.31.05,1.66.29,2.98.52,3.24.57,5.1,1.32,6.37,2.51l1.06.98.08,13.72.08,13.74h-1.06c-.98,0-1.24-.21-5.1-3.83-15.94-14.93-23.24-23.89-21.35-26.19.49-.57,3.26-1.29,5.15-1.29s1.89-.08,1.89-2.23v-1.91h-31.86l.08,1.99ZM139.88,34.86"/>
+    <text class="st8" transform="translate(262.58 84.54)"><tspan class="st6" x="0" y="0">V</tspan><tspan class="st3" x="36.39" y="0">ERAVAL</tspan><tspan class="st7" x="189.28" y="0">O</tspan><tspan class="st2" x="228.38" y="0">NLINE</tspan></text>
+    <text class="st4" transform="translate(561.93 54.31)"><tspan x="0" y="0">Pvt.Ltd</tspan></text>
+    <text class="st1" transform="translate(400.38 104.02)"><tspan x="0" y="0">“We aim your success”</tspan></text>
+  </g>
+  <rect class="st0" x="37" y="33" width="37" height="80"/>
+</svg>
