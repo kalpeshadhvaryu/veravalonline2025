@@ -6,102 +6,91 @@ export default function Menu() {
         <>
 
             <ul>
-                <li className="has-dropdown active menu-thumb">
+                
+                
+                <li>
                     <Link href="/">
                         Home
+                        <i className="fas fa-angle-down ps-1" />
+                    </Link>
+                    <ul className="submenu">
+                        <li><Link href="/service">About VO</Link></li>
+                        <li><Link href="/service-carousel">Career</Link></li>
+                        <li><Link href="/service-details">Accounts & Payments</Link></li>
+                    </ul>
+                </li>
+                <li>
+                    <Link href="/">
+                        Services
+                        <i className="fas fa-angle-down ps-1" />
+                    </Link>
+                    <ul className="submenu">
+                    <li><Link href="/service-details">Webmaster</Link></li>
+                        <li><Link href="/service-carousel">SAAS Development</Link></li>
+                        <li><Link href="/service">Dev Ops</Link></li>
+                        <li><Link href="/service-details">ERP/CRM</Link></li>
+                        <li><Link href="/service-details">Open Source</Link></li>
+                        <li><Link href="/service-details">Android/IOS Apps</Link></li>
+                        
+
+                    </ul>
+                </li>
+                <li className="has-dropdown active menu-thumb">
+                    <Link href="/news">
+                        Solutions
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu has-homemenu">
                         <li>
                             <div className="homemenu-items">
+                               
+                        <ul>
+                            <li><Link href="/index-3">Team Tracking</Link></li>
+                            <li><Link href="/index-three-page">Insurance Management</Link></li>
+                            <li><Link href="/index-4">Hiring & Recruitment</Link></li>
+                            <li><Link href="/index-four-page">Astra TMS</Link></li>
+                        </ul>
+                               
                                 <div className="homemenu">
-                                    <div className="homemenu-thumb">
-                                        <img src="/assets/img/header/home-1.jpg" alt="img" />
-                                        <div className="demo-button">
-                                            <Link href="/" className="theme-btn">
-                                                <span>Multi Page</span>
-                                            </Link>
-                                            <Link href="/index-one-page" className="theme-btn">
-                                                <span>One Page</span>
-                                            </Link>
-                                        </div>
-                                    </div>
+                                    
                                     <div className="homemenu-content text-center">
-                                        <h4 className="homemenu-title">
-                                            Home 01
-                                        </h4>
+                                    <h4>More Home Variants</h4>
+                        <ul>
+                            <li><Link href="/index-3">Multi Page - Home 03</Link></li>
+                            <li><Link href="/index-three-page">One Page - Home 03</Link></li>
+                            <li><Link href="/index-4">Multi Page - Home 04</Link></li>
+                            <li><Link href="/index-four-page">One Page - Home 04</Link></li>
+                        </ul>
                                     </div>
                                 </div>
                                 <div className="homemenu">
                                     <div className="homemenu-thumb mb-15">
-                                        <img src="/assets/img/header/home-2.jpg" alt="img" />
-                                        <div className="demo-button">
-                                            <Link href="/index-2" className="theme-btn">
-                                                <span>Multi Page</span>
-                                            </Link>
-                                            <Link href="/index-two-page" className="theme-btn">
-                                                <span>One Page</span>
-                                            </Link>
-                                        </div>
+                                       
                                     </div>
                                     <div className="homemenu-content text-center">
-                                        <h4 className="homemenu-title">
-                                            Home 02
-                                        </h4>
+                                    <h4>More Home Variants</h4>
+                        <ul>
+                            <li><Link href="/index-3">Multi Page - Home 03</Link></li>
+                            <li><Link href="/index-three-page">One Page - Home 03</Link></li>
+                            <li><Link href="/index-4">Multi Page - Home 04</Link></li>
+                            <li><Link href="/index-four-page">One Page - Home 04</Link></li>
+                        </ul>
                                     </div>
                                 </div>
                                 <div className="homemenu">
-                                    <div className="homemenu-thumb mb-15">
-                                        <img src="/assets/img/header/home-3.jpg" alt="img" />
-                                        <div className="demo-button">
-                                            <Link href="/index-3" className="theme-btn">
-                                                <span>Multi Page</span>
-                                            </Link>
-                                            <Link href="/index-three-page" className="theme-btn">
-                                                <span>One Page</span>
-                                            </Link>
-                                        </div>
-                                    </div>
+                                    
                                     <div className="homemenu-content text-center">
-                                        <h4 className="homemenu-title">
-                                            Home 03
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div className="homemenu">
-                                    <div className="homemenu-thumb mb-15">
-                                        <img src="/assets/img/header/home-4.jpg" alt="img" />
-                                        <div className="demo-button">
-                                            <Link href="/index-4" className="theme-btn">
-                                                <span>Multi Page</span>
-                                            </Link>
-                                            <Link href="/index-four-page" className="theme-btn">
-                                                <span>One Page</span>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="homemenu-content text-center">
-                                        <h4 className="homemenu-title">
-                                            Home 04
-                                        </h4>
+                                    <h4>More Home Variants</h4>
+                        <ul>
+                            <li><Link href="/index-3">Multi Page - Home 03</Link></li>
+                            <li><Link href="/index-three-page">One Page - Home 03</Link></li>
+                            <li><Link href="/index-4">Multi Page - Home 04</Link></li>
+                            <li><Link href="/index-four-page">One Page - Home 04</Link></li>
+                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                    </ul>
-                </li>
-                <li>
-                    <Link href="/about">About</Link>
-                </li>
-                <li>
-                    <Link href="/news">
-                        Services
-                        <i className="fas fa-angle-down ps-1" />
-                    </Link>
-                    <ul className="submenu">
-                        <li><Link href="/service">Services</Link></li>
-                        <li><Link href="/service-carousel">Service Carousel</Link></li>
-                        <li><Link href="/service-details">Service Details</Link></li>
                     </ul>
                 </li>
                 <li className="has-dropdown">
@@ -147,6 +136,9 @@ export default function Menu() {
                         <li><Link href="/news-standard">Blog Standard</Link></li>
                         <li><Link href="/news-details">Blog Details</Link></li>
                     </ul>
+                </li>
+                <li>
+                    <Link href="/about">Portfolio</Link>
                 </li>
                 <li>
                     <Link href="/contact">Contact</Link>
