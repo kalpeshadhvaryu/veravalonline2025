@@ -35,7 +35,23 @@ export default function Menu() {
 
                     </ul>
                 </li>
-                <li className="has-dropdown active menu-thumb">
+                <li>
+                    <Link href="/">
+                        Services
+                        <i className="fas fa-angle-down ps-1" />
+                    </Link>
+                    <ul className="submenu">
+                    <li><Link href="/service-details">Webmaster</Link></li>
+                        <li><Link href="/service-carousel">SAAS Development</Link></li>
+                        <li><Link href="/service">Dev Ops</Link></li>
+                        <li><Link href="/service-details">ERP/CRM</Link></li>
+                        <li><Link href="/service-details">Open Source</Link></li>
+                        <li><Link href="/service-details">Android/IOS Apps</Link></li>
+                        
+
+                    </ul>
+                </li>
+                {/* <li className="has-dropdown active menu-thumb">
                     <Link href="/news">
                         Solutions
                         <i className="fas fa-angle-down ps-1" />
@@ -92,7 +108,7 @@ export default function Menu() {
                             </div>
                         </li>
                     </ul>
-                </li>
+                </li> */}
                 <li className="has-dropdown">
                     <Link href="/news">
                         Pages
