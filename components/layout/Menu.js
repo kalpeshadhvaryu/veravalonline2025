@@ -31,22 +31,25 @@ export default function Menu() {
                         <li><Link href="/service-details">ERP/CRM</Link></li>
                         <li><Link href="/service-details">Open Source</Link></li>
                         <li><Link href="/service-details">Android/IOS Apps</Link></li>
+                        <li><Link href="/service-details">Designing</Link></li>
+                        <li><Link href="/service-details">Digital Marketing</Link></li>
                         
 
                     </ul>
                 </li>
                 <li>
                     <Link href="/">
-                        Services
+                        Solutions
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu">
-                    <li><Link href="/service-details">Webmaster</Link></li>
-                        <li><Link href="/service-carousel">SAAS Development</Link></li>
-                        <li><Link href="/service">Dev Ops</Link></li>
-                        <li><Link href="/service-details">ERP/CRM</Link></li>
-                        <li><Link href="/service-details">Open Source</Link></li>
-                        <li><Link href="/service-details">Android/IOS Apps</Link></li>
+                    <li><Link href="/service-details">Track Sales Team </Link></li>
+                        <li><Link href="/service-carousel">Order Management</Link></li>
+                        <li><Link href="/service">Logistics & Transport</Link></li>
+                        <li><Link href="/service-details">Recruitment & HR</Link></li>
+                        <li><Link href="/service-details">Insurance Management</Link></li>
+                        <li><Link href="/service-details">Appointment & Booking</Link></li>
+                    
                         
 
                     </ul>
@@ -111,7 +114,7 @@ export default function Menu() {
                 </li> */}
                 <li className="has-dropdown">
                     <Link href="/news">
-                        Pages
+                        About Us
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu">
