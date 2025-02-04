@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Applications/MAMP/htdocs/veravalonline/veravalonline2025/app/layout\":[\"static/media/ee6c08fec32e762d-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Applications/MAMP/htdocs/veravalonline/veravalonline2025/app/layout":["static/media/ee6c08fec32e762d-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

@@ -46,7 +46,7 @@ export default function Header1({
                                 <div className="header-left">
                                     <div className="logo">
                                         <Link href="/" className="header-logo">
-                                            <img src="/assets/img/logo/black-logo-2.svg" alt="logo-img" />
+                                            <img src="/assets/img/logo/veravalonline-logo.png" alt="logo-img" style={{ width: "100px" }} />
                                         </Link>
                                     </div>
                                 </div>
