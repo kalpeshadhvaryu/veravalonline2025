@@ -20,7 +20,7 @@ export default function Header1({
                             <ul className="contact-list">
                                 <li>
                                     <i className="far fa-envelope" />
-                                    <Link href="/mailto:info@example.com" className="link">hi@veravalonline.com</Link>
+                                    <Link href="/mailto:info@example.com" className="link">Support@veravalonline.com</Link>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
@@ -35,6 +35,7 @@ export default function Header1({
                                     <Link href="#"><i className="fab fa-twitter" /></Link>
                                     <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
                                     <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                    
                                 </div>
                             </div>
                         </div>

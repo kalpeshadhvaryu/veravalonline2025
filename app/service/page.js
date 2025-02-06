@@ -15,7 +15,7 @@ export default function Service() {
                             <div className="section-title text-center">
                                 <span className="wow fadeInUp">OUR SERVICES</span>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    We Provide the Best Quality
+                                Discover how we can help your business WIN with managed IT services 
                                 </h2>
                             </div>
                             <div className="service-wrapper mb-0">
@@ -193,7 +193,7 @@ export default function Service() {
                         </div>
                     </section>
                     {/*<< Faq Section Start >>*/}
-                    <section className="faq-section style-2 fix section-padding">
+                    {/* <section className="faq-section style-2 fix section-padding">
                         <div className="right-shape">
                             <img src="/assets/img/faq/right-shape.png" alt="shape-img" />
                         </div>
@@ -226,7 +226,7 @@ export default function Service() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* Contact Section Start */}
                     <section className="contact-section fix section-padding">
                         <div className="container">
