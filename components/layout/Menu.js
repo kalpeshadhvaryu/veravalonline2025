@@ -120,14 +120,10 @@ export default function Menu() {
                     <ul className="submenu">
                         <li className="has-dropdown">
                             <Link href="/project">
-                                Projects
+                                Case Studies
                                 <i className="fas fa-angle-down ps-1" />
                             </Link>
-                            <ul className="submenu">
-                                <li><Link href="/project">Project</Link></li>
-                                <li><Link href="/project-carousel">Project Carousel</Link></li>
-                                <li><Link href="/project-details">Project Details</Link></li>
-                            </ul>
+                          
                         </li>
                         <li className="has-dropdown">
                             <Link href="/team">
