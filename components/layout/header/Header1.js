@@ -24,7 +24,8 @@ export default function Header1({
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-phone-volume" />
-                                    <Link href="/tel:2086660112">India: +91-7863042495</Link> | <Link href="/tel:2086660112">India: +91-7863042495</Link>
+                                    <Link href="tel:7016549503">Support-India: +91-7016549503</Link> | <Link href="tel:7863042495">Sales-India: +91-7863042495</Link>
+                                  
                                 </li>
                             </ul>
                             <div className="top-right">

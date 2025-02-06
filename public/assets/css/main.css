@@ -7797,3 +7797,6 @@ html {
 }
 
 /*# sourceMappingURL=main.css.map */
+.swiper-slide {
+  width: 350px !important;
+}

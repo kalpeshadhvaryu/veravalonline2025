@@ -18,14 +18,15 @@ export default function Footer1() {
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <Link href="/">
-                                            <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
+                                            <img src="/assets/img/logo/veravalonline-logo-new-white.png" alt="logo-img" style={{
+                                                width:"300px"
+                                            }} />
                                         </Link>
-                                    </div>
+                                    </div> 
                                     <div className="footer-content">
                                         <p>
-                                            Phasellus ultricies aliquam volutpat
-                                            ullamcorper laoreet neque, a lacinia
-                                            curabitur lacinia mollis
+                                        Business Success with Comprehensive 
+                                        Development, Designing, Data Security, and Digital Marketing. 
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="#"><i className="fab fa-facebook-f" /></Link>
@@ -125,27 +126,38 @@ export default function Footer1() {
                             <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
-                                        <h3>Contact Us</h3>
+                                        <h3>Address</h3>
                                     </div>
                                     <div className="footer-content">
                                         <ul className="contact-info">
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                6391 Elgin St. Celina, USA
+                                                India- 312 Broadway Signature, Sevasi Canal Road,  Vadodara – 391101, Gujarat – India.
+                                            </li>
+                                            <li>
+                                                <i className="fas fa-map-marker-alt" />
+                                                USA: 1007 N Orange St. 4th Floor Suite #1246, Wilmington, Delaware 19801, United States.
                                             </li>
                                             <li>
                                                 <i className="fa-solid fa-phone-volume" />
-                                                <Link href="/tel:2086660112">+208-666-0112</Link>
+                                                <Link href="/tel:7863042495">+91-7863042495</Link>
+                                            </li>
+                                            <li>
+                                                <i className="fa-solid fa-phone-volume" />
+                                                <Link href="/tel:6303490895">+1-6303490895
+
+</Link>
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:infotech@gmail.com">Infotech@gmail.com</Link>
+                                                <Link href="mailto:sales@veravalonline.com"> sales@veravalonline.com</Link>
+                                            </li>
+                                            <li>
+                                                <i className="fa-regular fa-envelope" />
+                                                <Link href="mailto:support@veravalonline.com"> support@veravalonline.com</Link>
                                             </li>
                                         </ul>
-                                        <Link href="/contact" className="theme-btn hover-white mt-4">
-                                            get A Quote
-                                            <i className="fa-solid fa-arrow-right-long" />
-                                        </Link>
+                                     
                                     </div>
                                 </div>
                             </div>

@@ -28,14 +28,16 @@ export default function Hero1() {
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
                                     Excellent It Services
-                                    for Your Success
+                                    For Your Success
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
-                                    Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
+                                At VeravalOnline, we empower businesses with innovative IT solutions designed to streamline operations, enhance productivity, and drive growth. From seamless system integration to advanced cloud solutions, we deliver technology that works for you. 
+
+ 
                                 </p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
-                                        Explore More
+                                        Explore Services
                                         <i className="fa-solid fa-arrow-right-long" />
                                     </Link>
                                     <VideoPopup style={3} />

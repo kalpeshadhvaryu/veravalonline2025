@@ -32,13 +32,13 @@ export default function About1() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                        <span className="wow fadeInUp">ABOUT VeravalOnline</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                             We Are Increasing Business Success With <span>Technology</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                    Experience comprehensive IT services for digital branding, web development, app development, e-commerce solutions, software development, cloud services, cybersecurity, IT support, server management, SEO, digital marketing, UI/UX design, content creation, maintenance, and more! Discover our all-in-one Webmaster Package today! 
                                     </p>
                                     <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -46,9 +46,9 @@ export default function About1() {
                                                 <img src="/assets/img/about/icon-2.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
-                                                <h4>Problem Solving</h4>
+                                                <h4>Development Services   </h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                Full-stack solutions for seamless application and web development. 
                                                 </p>
                                             </div>
                                         </div>
@@ -57,9 +57,9 @@ export default function About1() {
                                                 <img src="/assets/img/about/icon-3.svg" alt="icon-img" />
                                             </div>
                                             <div className="content">
-                                                <h4>Mission &amp; Vision</h4>
+                                                <h4>Designing & Branding </h4>
                                                 <p>
-                                                    Aliquam erat volutpat Nullam imperdiet
+                                                Creative designs that boost engagement and brand identity. 
                                                 </p>
                                             </div>
                                         </div>
@@ -74,8 +74,8 @@ export default function About1() {
                                         <div className="author-image wow fadeInUp" data-wow-delay=".7s">
                                             <img src="/assets/img/about/author.png" alt="author-img" />
                                             <div className="content">
-                                                <h6>Ronald Richards</h6>
-                                                <p>Co, Founder</p>
+                                                <h6>Kalpesh Adhvaryu</h6>
+                                                <p>CEO & Founder</p>
                                             </div>
                                         </div>
                                     </div>

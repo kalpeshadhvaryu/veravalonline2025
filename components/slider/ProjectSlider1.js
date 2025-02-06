@@ -50,9 +50,9 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/01.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Technology</p>
+                                    {/* <p>Manufacturing</p> */}
                                     <h4>
-                                        <Link href="/project-details">Platform Integration</Link>
+                                        <Link href="/project-details">Manufacturing</Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
@@ -66,9 +66,9 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/02.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Security</p>
+                                    {/* <p>Order Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Network Security</Link>
+                                        <Link href="/project-details">Order Management  </Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
@@ -82,9 +82,9 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/03.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Solution</p>
+                                    {/* <p>Operation Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Web Development</Link>
+                                        <Link href="/project-details">Operation Management</Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
@@ -98,9 +98,9 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/04.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Technology</p>
+                                    {/* <p>Technology</p> */}
                                     <h4>
-                                        <Link href="/project-details">IT Management</Link>
+                                        <Link href="/project-details">Technology</Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
@@ -114,9 +114,9 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/03.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Solution</p>
+                                    {/* <p>Process Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Web Development</Link>
+                                        <Link href="/project-details">Process Management</Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
@@ -130,9 +130,25 @@ export default function ProjectSlider1({ showDots }) {
                             <div className="project-image">
                                 <img src="/assets/img/project/04.jpg" alt="project-img" />
                                 <div className="project-content">
-                                    <p>Technology</p>
+                                    {/* <p>Legal & Compliance</p> */}
                                     <h4>
-                                        <Link href="/project-details">IT Management</Link>
+                                        <Link href="/project-details">Legal & Compliance  </Link>
+                                    </h4>
+                                    <Link href="/project-details" className="icon">
+                                        <i className="fa-solid fa-arrow-right" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="project-items">
+                            <div className="project-image">
+                                <img src="/assets/img/project/04.jpg" alt="project-img" />
+                                <div className="project-content">
+                                    {/* <p>Cloud File Storage </p> */}
+                                    <h4>
+                                        <Link href="/project-details">Cloud File Storage </Link>
                                     </h4>
                                     <Link href="/project-details" className="icon">
                                         <i className="fa-solid fa-arrow-right" />

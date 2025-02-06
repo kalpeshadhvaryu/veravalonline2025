@@ -48,9 +48,9 @@ export default function Team1() {
                     <div className="team-wrapper">
                         <div className="team-items bor-top bor-bottom wow fadeInUp" data-wow-delay=".3s">
                             <div className="team-title">
-                                <span>Scrum Master</span>
+                                <span>C.E.O & Founder</span>
                                 <h4>
-                                    <Link href="/team-details">Cameron Williamson</Link>
+                                    <Link href="/team-details">Kalpesh Adhvaryu</Link>
                                 </h4>
                             </div>
                             <p>
@@ -69,9 +69,9 @@ export default function Team1() {
                         </div>
                         <div className="team-items bor-bottom pt-0 wow fadeInUp" data-wow-delay=".5s">
                             <div className="team-title">
-                                <span>Engineering</span>
+                                <span>HR Manager</span>
                                 <h4>
-                                    <Link href="/team-details">Leslie Alexander</Link>
+                                    <Link href="/team-details">Hetal Adhvaryu </Link>
                                 </h4>
                             </div>
                             <p>
@@ -90,9 +90,9 @@ export default function Team1() {
                         </div>
                         <div className="team-items bor-bottom pt-0 wow fadeInUp" data-wow-delay=".7s">
                             <div className="team-title">
-                                <span>UI/UX Designer</span>
+                                <span>Manager</span>
                                 <h4>
-                                    <Link href="/team-details">Ronald Richards</Link>
+                                    <Link href="/team-details">Mehul Parmar</Link>
                                 </h4>
                             </div>
                             <p>
@@ -109,27 +109,7 @@ export default function Team1() {
                                 <span className="plus-btn"><i className="fa-solid fa-plus" /></span>
                             </div>
                         </div>
-                        <div className="team-items bor-bottom pt-0 wow fadeInUp" data-wow-delay=".9s">
-                            <div className="team-title">
-                                <span>Web Designer</span>
-                                <h4>
-                                    <Link href="/team-details">Darrell Steward</Link>
-                                </h4>
-                            </div>
-                            <p>
-                                Integer at sapien nec sapien <br />
-                                sollicitudin ultrices in ut nisl.
-                            </p>
-                            <div className="team-hover d-none d-md-block bg-cover" style={{ backgroundImage: 'url("assets/img/team/hover-1.png")' }} />
-                            <div className="social-profile">
-                                <ul>
-                                    <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-instagram" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-linkedin-in" /></Link></li>
-                                </ul>
-                                <span className="plus-btn"><i className="fa-solid fa-plus" /></span>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </section>

@@ -1,51 +1,62 @@
 'use client'
 import { useState } from 'react';
-export default function Accordion1() {
-    const [activeItem, setActiveItem] = useState(1);
 
-    const handleClick = (index) => {
-      setActiveItem(index);
-    };
+export default function Accordion1() {
+    const [activeItem, setActiveItem] = useState(null);
+
+    const faqData = [
+        {
+            id: 1,
+            question: "What IT services does VeravalOnline provide?",
+            answer: "We offer full-stack web and app development, SaaS solutions, DevOps, ERP/CRM systems, open-source customization, UI/UX design, cybersecurity, digital marketing, and server management to help businesses grow."
+        },
+        {
+            id: 2,
+            question: "How can VeravalOnline improve my website’s SEO and digital marketing?",
+            answer: "Our SEO experts implement on-page and off-page optimization, keyword research, content marketing, PPC campaigns, and social media strategies to boost search rankings and increase traffic."
+        },
+        {
+            id: 3,
+            question: "Do you develop mobile apps for both Android and iOS?",
+            answer: "Yes, we create custom Android and iOS apps with high performance, user-friendly UI/UX, and scalable functionality for startups and enterprises."
+        },
+        {
+            id: 4,
+            question: "What is included in VeravalOnline’s Webmaster Services?",
+            answer: "Our Webmaster Package covers website development, security updates, performance optimization, content management, and 24/7 IT support to keep your site running smoothly."
+        },
+        {
+            id: 5,
+            question: "How does VeravalOnline ensure data security and cybersecurity?",
+            answer: "We implement firewalls, data encryption, secure cloud solutions, and threat monitoring to protect your sensitive business information."
+        }
+    ];
+
     return (
-        <>
-            <div className="accordion" id="accordion">
-                <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".3s">
-                    <h5 className="accordion-header" onClick={() => handleClick(1)}>
-                        <button className={activeItem  == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                            How long should a business plan be?
+        <div className="accordion" id="accordion">
+            {faqData.map(({ id, question, answer }) => (
+                <div key={id} className="accordion-item mb-3 wow fadeInUp" data-wow-delay={`${id * 0.2}s`}>
+                    <h5 className="accordion-header" onClick={() => setActiveItem(activeItem === id ? null : id)}>
+                        <button
+                            className={`accordion-button ${activeItem === id ? '' : 'collapsed'}`}
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#faq${id}`}
+                            aria-expanded={activeItem === id}
+                            aria-controls={`faq${id}`}
+                        >
+                            {question}
                         </button>
                     </h5>
-                    <div id="faq1" className={activeItem  == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor.
-                        </div>
+                    <div
+                        id={`faq${id}`}
+                        className={`accordion-collapse collapse ${activeItem === id ? 'show' : ''}`}
+                        data-bs-parent="#accordion"
+                    >
+                        <div className="accordion-body">{answer}</div>
                     </div>
                 </div>
-                <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".5s">
-                    <h5 className="accordion-header" onClick={() => handleClick(2)}>
-                        <button className={activeItem  == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                            What is included in your services?
-                        </button>
-                    </h5>
-                    <div id="faq2" className={activeItem  == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor.
-                        </div>
-                    </div>
-                </div>
-                <div className="accordion-item mb-3 wow fadeInUp" data-wow-delay=".7s">
-                    <h5 className="accordion-header" onClick={() => handleClick(3)}>
-                        <button className={activeItem  == 3 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                            What type of company is measured?
-                        </button>
-                    </h5>
-                    <div id="faq3" className={activeItem  == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+            ))}
+        </div>
+    );
 }
