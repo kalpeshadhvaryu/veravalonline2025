@@ -39,13 +39,13 @@ export default function About() {
                                     <div className="col-lg-6 mt-4 mt-lg-0">
                                         <div className="about-content">
                                             <div className="section-title">
-                                                <span className="wow fadeInUp">ABOUT INFOTECK</span>
+                                                <span className="wow fadeInUp">About VeravalOnline   </span>
                                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                                    We Are Increasing Business Success With <span>Technology</span>
+                                                Your Trusted IT Partner for <span> Digital Transformation</span>
                                                 </h2>
                                             </div>
                                             <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                                It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
+                                            Founded in 2008, VeravalOnline is a leading IT solutions provider specializing in web development, SaaS solutions, cloud services, cybersecurity, and enterprise software. With over 15+ years of experience, we empower businesses with innovative, scalable, and secure technology solutions tailored to their unique needs. 
                                             </p>
                                             <div className="about-icon-items">
                                                 <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -53,9 +53,9 @@ export default function About() {
                                                         <img src="/assets/img/about/icon-4.svg" alt="icon-img" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Problem Solving</h4>
+                                                        <h4>Vision & Mission  </h4>
                                                         <p>
-                                                            Aliquam erat volutpat Nullam imperdiet
+                                                        Driving global digital transformation with secure and scalable IT solutions. 
                                                         </p>
                                                     </div>
                                                 </div>
@@ -64,9 +64,9 @@ export default function About() {
                                                         <img src="/assets/img/about/icon-5.svg" alt="icon-img" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Mission &amp; Vision</h4>
+                                                        <h4>15+ Years of Expertise</h4>
                                                         <p>
-                                                            Ut vehiculadictumst. Maecenas ante.
+                                                        Trusted global IT partner delivering innovation and security.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -81,8 +81,8 @@ export default function About() {
                                                 <div className="author-image wow fadeInUp" data-wow-delay=".7s">
                                                     <img src="/assets/img/about/author.png" alt="author-img" />
                                                     <div className="content">
-                                                        <h6>Ronald Richards</h6>
-                                                        <p>Co, Founder</p>
+                                                        <h6>Kalpesh Adhvaryu  </h6>
+                                                        <p>CEO & Founder</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,9 +102,9 @@ export default function About() {
                         </div>
                         <div className="container">
                             <div className="section-title text-center">
-                                <span className="wow fadeInUp">Our offering</span>
+                                <span className="wow fadeInUp">What We Do   </span>
                                 <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                                    Enhance and Pioneer Using <br /> Technology Trends
+                                Comprehensive IT Solutions for <br/> Business Growth 
                                 </h2>
                             </div>
                             <div className="row">
@@ -129,7 +129,8 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>Website</h5>
+                                            <h5>Web & App Development </h5>
+                                            {/* <p>High-performance websites and mobile apps.</p> */}
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +149,7 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>Android</h5>
+                                            <h5>Software <br/>Solutions </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -174,7 +175,7 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>IOS</h5>
+                                            <h5>DevOps & Cloud Services</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -196,7 +197,7 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>Watch</h5>
+                                            <h5>Cyber<br/>Security </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -223,7 +224,7 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>Tv</h5>
+                                            <h5>IT Support & Maintenance</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -242,7 +243,7 @@ export default function About() {
                                             </svg>
                                         </div>
                                         <div className="content">
-                                            <h5>IOT</h5>
+                                            <h5>Hire <br/> Experts </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -280,22 +281,80 @@ export default function About() {
                         <div className="container-fluid">
                             <div className="marquee-wrapper style-2 text-slider">
                                 <div className="marquee-inner to-left">
-                                    <ul className="marqee-list d-flex">
-                                        <li className="marquee-item style-2">
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Cyber Security</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">IT Solution</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Technology</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Data Security</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Cyber Security</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">IT Solution</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Technology</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Data Security</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Cyber Security</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">IT Solution</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Technology</span>
-                                            <span className="text-slider"><img src="/assets/img/asterisk.svg" alt="img" /></span><span className="text-slider text-style">Data Security</span>
-                                        </li>
-                                    </ul>
+                                <ul className="marqee-list d-flex">
+                <li className="marquee-item style-2">
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Webmaster  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">SAAS  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Dev Ops</span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">CRM/ERP  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  
+                  <span className="text-slider text-style">Web/Apps  </span>
+                  <span className="text-slider"> 
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Software</span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Android/IOS  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Open Source  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Hire Developers  </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Hire Designers</span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  {/* <span className="text-slider text-style">Astra TMS    </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Insurance Management System    </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">POS / KIOSK    </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Recruitment Portal    </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Field Worker Tracking </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Export Document </span>
+                  <span className="text-slider">
+                    <img src="/assets/img/asterisk.svg" alt="img" />
+                  </span>
+                  <span className="text-slider text-style">Cloud File Storage </span> */}
+                  
+                </li>
+              </ul>
                                 </div>
                             </div>
                         </div>
@@ -407,7 +466,7 @@ export default function About() {
                     <div className="brand-section fix section-padding pt-0">
                         <div className="container">
                             <div className="brand-wrapper">
-                                <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">1k + Brands Trust Us</h6>
+                                <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">1k + Trusted by Leading Brands</h6>
                                 <BrandSlider1 />
                             </div>
                         </div>

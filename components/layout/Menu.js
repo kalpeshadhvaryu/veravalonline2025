@@ -16,7 +16,7 @@ export default function Menu() {
                     <ul className="submenu">
                         <li><Link href="/about">About VO</Link></li>
                         <li><Link href="/service-carousel">Career</Link></li>
-                        <li><Link href="/service-details">Accounts & Payments</Link></li>
+                        <li><Link href="/Accounts-Payments">Accounts & Payments</Link></li>
                     </ul>
                 </li>
                 <li>
