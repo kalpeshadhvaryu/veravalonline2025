@@ -1,7 +1,6 @@
 {
-  "/OrderManagement/page": "app/OrderManagement/page.js",
-  "/LogisticsTransport/page": "app/LogisticsTransport/page.js",
-  "/RecruitmentHR/page": "app/RecruitmentHR/page.js",
-  "/InsuranceManagement/page": "app/InsuranceManagement/page.js",
-  "/AppointmentBooking/page": "app/AppointmentBooking/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/Webmaster/page": "app/Webmaster/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
