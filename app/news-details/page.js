@@ -6,7 +6,7 @@ export default function NewsDetails() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Blog Details">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Details">
                 <section className="news-standard fix section-padding">
                     <div className="container">
                         <div className="news-details-area">

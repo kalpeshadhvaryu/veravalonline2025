@@ -1,8 +1,8 @@
 {
-  "/team-carousel/page": "app/team-carousel/page.js",
-  "/service-details/page": "app/service-details/page.js",
-  "/blogs/page": "app/blogs/page.js",
-  "/contact/page": "app/contact/page.js",
+  "/project-details/page": "app/project-details/page.js",
+  "/page": "app/page.js",
   "/project/page": "app/project/page.js",
-  "/project-carousel/page": "app/project-carousel/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/service/page": "app/service/page.js"
 }

@@ -6,7 +6,7 @@ export default function Pricing() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Pricing">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Pricing">
                 <section className="pricing-section fix section-padding">
                     <div className="container">
                         <div className="pricing-wrapper">

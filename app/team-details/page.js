@@ -6,7 +6,7 @@ export default function TeamDetails() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Team Details">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Team Details">
                 <section className="team-details-section fix section-padding">
                     <div className="container">
                         <div className="team-details-wrapper">
