@@ -25,14 +25,14 @@ export default function Menu() {
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu">
-                    <li><Link href="/service-details">Webmaster</Link></li>
-                        <li><Link href="/service-details">SAAS Development</Link></li>
-                        <li><Link href="/service-details">Dev Ops</Link></li>
-                        <li><Link href="/service-details">ERP/CRM</Link></li>
-                        <li><Link href="/service-details">Open Source</Link></li>
-                        <li><Link href="/service-details">Android/IOS Apps</Link></li>
-                        <li><Link href="/service-details">Designing</Link></li>
-                        <li><Link href="/service-details">Digital Marketing</Link></li>
+                    <li><Link href="/Webmaster">Webmaster</Link></li>
+                        <li><Link href="/SAASDevelopment ">SAAS Development</Link></li>
+                        <li><Link href="/DevOps">Dev Ops</Link></li>
+                        <li><Link href="/ERP-CRM">ERP/CRM</Link></li>
+                        <li><Link href="/OpenSource">Open Source</Link></li>
+                        <li><Link href="/Android-IOSApps">Android/IOS Apps</Link></li>
+                        <li><Link href="/Designing">Designing</Link></li>
+                        <li><Link href="/DigitalMarketing">Digital Marketing</Link></li>
                         
 
                     </ul>
@@ -61,12 +61,12 @@ export default function Menu() {
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu">
-                    <li><Link href="/project-details">Track Sales Team </Link></li>
-                        <li><Link href="/project-details">Order Management</Link></li>
-                        <li><Link href="/project-details">Logistics & Transport</Link></li>
-                        <li><Link href="/project-details">Recruitment & HR</Link></li>
-                        <li><Link href="/project-details">Insurance Management</Link></li>
-                        <li><Link href="/project-details">Appointment & Booking</Link></li>
+                    <li><Link href="/TrackSalesTeam">Track Sales Team </Link></li>
+                        <li><Link href="/OrderManagement">Order Management</Link></li>
+                        <li><Link href="/LogisticsTransport">Logistics & Transport</Link></li>
+                        <li><Link href="/RecruitmentHR">Recruitment & HR</Link></li>
+                        <li><Link href="/InsuranceManagement">Insurance Management</Link></li>
+                        <li><Link href="/AppointmentBooking">Appointment & Booking</Link></li>
                     
                         
 

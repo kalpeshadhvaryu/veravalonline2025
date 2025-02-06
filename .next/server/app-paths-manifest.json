@@ -1,4 +1,7 @@
 {
-  "/project-details/page": "app/project-details/page.js",
-  "/Accounts-Payments/page": "app/Accounts-Payments/page.js"
+  "/OrderManagement/page": "app/OrderManagement/page.js",
+  "/LogisticsTransport/page": "app/LogisticsTransport/page.js",
+  "/RecruitmentHR/page": "app/RecruitmentHR/page.js",
+  "/InsuranceManagement/page": "app/InsuranceManagement/page.js",
+  "/AppointmentBooking/page": "app/AppointmentBooking/page.js"
 }

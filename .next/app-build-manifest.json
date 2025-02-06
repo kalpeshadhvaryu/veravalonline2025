@@ -16,10 +16,57 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/project-details/page": [
+    "/project/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/project-details/page.js"
+      "static/chunks/app/project/page.js"
+    ],
+    "/service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/service-details/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/service-details/page.css",
+      "static/chunks/app/service-details/page.js"
+    ],
+    "/TrackSalesTeam/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/TrackSalesTeam/page.js"
+    ],
+    "/OrderManagement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/OrderManagement/page.js"
+    ],
+    "/LogisticsTransport/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/LogisticsTransport/page.js"
+    ],
+    "/RecruitmentHR/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/RecruitmentHR/page.js"
+    ],
+    "/InsuranceManagement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/InsuranceManagement/page.js"
+    ],
+    "/AppointmentBooking/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/AppointmentBooking/page.js"
     ]
   }
 }

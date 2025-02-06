@@ -6498,6 +6498,9 @@ input.main-search-input::placeholder {
 .service-box-items:hover .content h4 a {
   color: var(--white);
 }
+.service-box-items:hover .Box-Heading h4  {
+  color: var(--white);
+}
 .service-box-items:hover .content p {
   color: var(--white);
 }
@@ -7800,3 +7803,4 @@ html {
 .custom-slide {
   width: 350px !important;
 }
+ 
