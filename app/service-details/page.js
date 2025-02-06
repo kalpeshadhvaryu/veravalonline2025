@@ -12,7 +12,7 @@ export default function ServiceDetails() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Services Details">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Services Details">
                 <section className="service-details-section fix section-padding">
                     <div className="container">
                         <div className="service-details-wrapper">

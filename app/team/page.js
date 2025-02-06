@@ -6,7 +6,7 @@ export default function Team() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Team">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Team">
                 <section className="team-section-4 section-padding">
                     <div className="container">
                         <div className="row g-4">

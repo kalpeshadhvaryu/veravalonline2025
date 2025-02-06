@@ -133,7 +133,7 @@ const services = [
 ];
 
 const swiperOptions = {
-  modules: [   Pagination, Navigation],
+  modules: [  Autoplay, Pagination, Navigation],
   spaceBetween: 30,
   speed: 1500,
   loop: true,
@@ -195,7 +195,9 @@ export default function Service1() {
             <div className="swiper service-slider">
               <Swiper {...swiperOptions} className="swiper service-slider" >
                 {services.map((service) => (
-                  <SwiperSlide key={service.id}  className="swiper-slide " >
+                  <SwiperSlide key={service.id}  className="custom-slide " style={{
+                    width:"350px !important"
+                  }}>
                     <div className="service-box-items">
                       <div className="icon">
                         <img src={service.icon} alt="service-icon" />
@@ -219,7 +221,7 @@ export default function Service1() {
             </div>
             <div className="service-text wow fadeInUp" data-wow-delay=".4s">
               <h6>
-                Need Any Kind Of IT Solution For Your Business.{" "}
+              Discover how we can help your business WIN with managed IT services 
                 <Link href="/service">View Services </Link>
               </h6>
             </div>

@@ -7,7 +7,7 @@ export default function ProjectCarousel() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Project Carousel">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Project Carousel">
                 <div>
                     <section className="project-section section-padding fix">
                         <div className="container">

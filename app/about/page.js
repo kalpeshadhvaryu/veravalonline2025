@@ -9,7 +9,7 @@ export default function About() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="About Us">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
                 <div>
                     <section className="about-section section-padding fix bg-cover" style={{ backgroundImage: 'url("assets/img/service/service-bg-2.jpg")' }}>
                         <div className="container">

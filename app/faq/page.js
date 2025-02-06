@@ -6,7 +6,7 @@ export default function Faq() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Faq">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Faq">
                 <section className="faq-section-2 fix section-padding">
                     <div className="container">
                         <div className="faq-wrapper">

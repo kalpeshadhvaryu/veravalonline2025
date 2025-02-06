@@ -42,7 +42,7 @@ export default function TeamCarousel() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Team">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Team">
                 <div>
                     <section className="team-section-4 fix section-padding">
                         <div className="container">
