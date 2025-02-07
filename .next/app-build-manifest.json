@@ -39,10 +39,71 @@
       "static/chunks/main-app.js",
       "static/chunks/app/project-carousel/page.js"
     ],
-    "/_not-found/page": [
+    "/DevOps/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/DevOps/page.css",
+      "static/chunks/app/DevOps/page.js"
+    ],
+    "/ERP-CRM/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ERP-CRM/page.css",
+      "static/chunks/app/ERP-CRM/page.js"
+    ],
+    "/service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service/page.js"
+    ],
+    "/Android-IOSApps/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Android-IOSApps/page.css",
+      "static/chunks/app/Android-IOSApps/page.js"
+    ],
+    "/OpenSource/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/OpenSource/page.css",
+      "static/chunks/app/OpenSource/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
+    ],
+    "/project/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/project/page.js"
+    ],
+    "/team/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/team/page.js"
+    ],
+    "/Designing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Designing/page.css",
+      "static/chunks/app/Designing/page.js"
+    ],
+    "/DigitalMarketing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/DigitalMarketing/page.css",
+      "static/chunks/app/DigitalMarketing/page.js"
+    ],
+    "/service-carousel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service-carousel/page.js"
+    ],
+    "/OrderManagement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/OrderManagement/page.js"
     ]
   }
 }

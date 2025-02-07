@@ -1,58 +1,88 @@
-
-import Link from 'next/link'
-import VideoPopup from '../elements/VideoPopup'
+import Link from "next/link";
+import VideoPopup from "../elements/VideoPopup";
 
 export default function Hero1() {
-    return (
-        <>
-            <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")' }}>
-                <div className="text-transparent">
-                    <h2>Technology</h2>
-                </div>
-                <div className="line-shape">
-                    <img src="/assets/img/hero/line-shape.png" alt="shape-img" />
-                </div>
-                <div className="dot-shape">
-                    <img src="/assets/img/hero/dot-shape.png" alt="shape-img" />
-                </div>
-                <div className="frame-shape">
-                    <img src="/assets/img/hero/frame.png" alt="shape-img" />
-                </div>
-                <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
-                    <img src="/assets/img/hero/mask-shape.png" alt="shape-img" />
-                </div>
-                <div className="container">
-                    <div className="row g-4 align-items-center">
-                        <div className="col-lg-8">
-                            <div className="hero-content">
-                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
-                                <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Excellent It Services
-                                    For Your Success
-                                </h1>
-                                <p className="wow fadeInUp" data-wow-delay=".6s">
-                                At VeravalOnline, we empower businesses with innovative IT solutions designed to streamline operations, enhance productivity, and drive growth. From seamless system integration to advanced cloud solutions, we deliver technology that works for you. 
-
- 
-                                </p>
-                                <div className="hero-button">
-                                    <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
-                                        Explore Services
-                                        <i className="fa-solid fa-arrow-right-long" />
-                                    </Link>
-                                    <VideoPopup style={3} />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="hero-image wow fadeInUp" data-wow-delay=".4s">
-                                <img src="/assets/img/hero/hero.png" alt="hero-img" />
-                            </div>
+  return (
+    <>
+      <section
+        className="hero-section fix hero-1 bg-cover"
+        style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")' }}
+      >
+        <div className="text-transparent">
+          <h2>Technology</h2>
+        </div>
+        <div className="line-shape">
+          <img src="/assets/img/hero/line-shape.png" alt="shape-img" />
+        </div>
+        <div className="dot-shape">
+          <img src="/assets/img/hero/dot-shape.png" alt="shape-img" />
+        </div>
+        <div className="frame-shape">
+          <img src="/assets/img/hero/frame.png" alt="shape-img" />
+        </div>
+        <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
+          <img src="/assets/img/hero/mask-shape.png" alt="shape-img" />
+        </div>
+        <div className="container">
+          <div className="row g-4 align-items-center">
+            <div className="col-lg-8">
+              <div className="hero-content">
+                <h6 className="wow fadeInUp" data-wow-delay=".2s">
+                  Best it SOULTION Provider
+                </h6>
+                <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                  Excellent It Services For Your Success
+                </h1>
+                <p className="wow fadeInUp" data-wow-delay=".6s">
+                    <div className="wow fadeInUp" data-wow-delay='.6' >
+                        <div className="col-6 wow fadeInUp" data-wow-delay='.6'>
+                        <ul className="list">
+                    <li>
+                      <i className="fa-regular fa-circle-check" />
+                      Webmaster Service
+                    </li>
+                    <li>
+                      <i className="fa-regular fa-circle-check" />
+                      Web & App Development
+                    </li>
+                    <li>
+                      <i className="fa-regular fa-circle-check" />
+                      Cloud Computing
+                    </li>
+                    <li>
+                      <i className="fa-regular fa-circle-check" />
+                      Cyber Security
+                    </li>
+                    <li>
+                      <i className="fa-regular fa-circle-check" />
+                      IT Infrastructure Management
+                    </li>
+                  </ul>
                         </div>
                     </div>
+                 
+                </p>
+                <div className="hero-button">
+                  <Link
+                    href="/about"
+                    className="theme-btn wow fadeInUp"
+                    data-wow-delay=".8s"
+                  >
+                    Explore Services
+                    <i className="fa-solid fa-arrow-right-long" />
+                  </Link>
+                  <VideoPopup style={3} />
                 </div>
-            </section>
-
-        </>
-    )
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="hero-image wow fadeInUp" data-wow-delay=".4s">
+                <img src="/assets/img/hero/hero.png" alt="hero-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
