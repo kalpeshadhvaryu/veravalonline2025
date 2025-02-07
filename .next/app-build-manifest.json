@@ -3,7 +3,6 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
     "/layout": [
@@ -17,85 +16,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
-    ],
     "/service/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/service/page.js"
     ],
-    "/Webmaster/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Webmaster/page.css",
-      "static/chunks/app/Webmaster/page.js"
-    ],
-    "/blogs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blogs/page.js"
-    ],
-    "/career/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/career/page.css",
-      "static/chunks/app/career/page.js"
-    ],
-    "/Accounts-Payments/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Accounts-Payments/page.js"
-    ],
-    "/SAASDevelopment/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/SAASDevelopment/page.css",
-      "static/chunks/app/SAASDevelopment/page.js"
-    ],
-    "/DevOps/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/DevOps/page.css",
-      "static/chunks/app/DevOps/page.js"
-    ],
-    "/Solutions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Solutions/page.js"
-    ],
-    "/ERP-CRM/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/ERP-CRM/page.css",
-      "static/chunks/app/ERP-CRM/page.js"
-    ],
-    "/OpenSource/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/OpenSource/page.css",
-      "static/chunks/app/OpenSource/page.js"
-    ],
-    "/Android-IOSApps/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Android-IOSApps/page.css",
-      "static/chunks/app/Android-IOSApps/page.js"
-    ],
-    "/Designing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Designing/page.css",
-      "static/chunks/app/Designing/page.js"
-    ],
-    "/DigitalMarketing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/DigitalMarketing/page.css",
-      "static/chunks/app/DigitalMarketing/page.js"
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
     ],
     "/TrackSalesTeam/page": [
       "static/chunks/webpack.js",

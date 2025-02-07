@@ -186,10 +186,10 @@ export default function ServiceDetails() {
                       <div className="details-video-items">
                         <div className="video-thumb">
                           <img
-                            src="/assets/img/service/details-video.jpg"
+                            src="/assets/img/service/designing-ser-1.jpg"
                             alt="img"
                           />
-                          <VideoPopup style={1} />
+                          {/* <VideoPopup style={1} /> */}
                         </div>
                         <div className="content">
                           <h4>Why Choose Professional Designing Services?  </h4>
@@ -405,7 +405,7 @@ export default function ServiceDetails() {
                           <div className="col-lg-6 col-md-6">
                             <div className="thumb">
                               <img
-                                src="/assets/img/service/details-2.jpg"
+                                src="/assets/img/service/ser-2/designing-ser-3.png"
                                 alt="img"
                               />
                             </div>
@@ -413,7 +413,7 @@ export default function ServiceDetails() {
                           <div className="col-lg-6 col-md-6">
                             <div className="thumb">
                               <img
-                                src="/assets/img/service/details-3.jpg"
+                                src="/assets/img/service/ser-2/designing-ser-2.png"
                                 alt="img"
                               />
                             </div>

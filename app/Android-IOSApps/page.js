@@ -186,10 +186,10 @@ export default function ServiceDetails() {
                       <div className="details-video-items">
                         <div className="video-thumb">
                           <img
-                            src="/assets/img/service/details-video.jpg"
+                            src="/assets/img/service/mobile-app-serv-1.jpg"
                             alt="img"
                           />
-                          <VideoPopup style={1} />
+                          {/* <VideoPopup style={1} /> */}
                         </div>
                         <div className="content">
                           <h4>Why Invest in Mobile App Development?  </h4>
@@ -407,7 +407,7 @@ export default function ServiceDetails() {
                           <div className="col-lg-6 col-md-6">
                             <div className="thumb">
                               <img
-                                src="/assets/img/service/details-2.jpg"
+                                src="/assets/img/service/ser-2/mobile-app-serv-2.jpg"
                                 alt="img"
                               />
                             </div>
@@ -415,7 +415,7 @@ export default function ServiceDetails() {
                           <div className="col-lg-6 col-md-6">
                             <div className="thumb">
                               <img
-                                src="/assets/img/service/details-3.jpg"
+                                src="/assets/img/service/ser-2/mobile-app-serv-3.jpg"
                                 alt="img"
                               />
                             </div>

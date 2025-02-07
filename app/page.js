@@ -13,8 +13,10 @@ import Project1 from "@/components/sections/Project1"
 import Service1 from "@/components/sections/Service1"
 import Team1 from "@/components/sections/Team1"
 import Testimonial1 from "@/components/sections/Testimonial1"
+import UnderConstructionModal from "@/components/UnderConstructionModal"
+import { useEffect } from "react"
 export default function Home() {
-
+ 
     return (
         <>
 
