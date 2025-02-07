@@ -56,7 +56,7 @@ export default function ServiceDetails() {
           <div className="container">
             <div className="service-details-wrapper">
               <div className="row g-4">
-                <div className="col-12  order-2 order-md-2">
+                {/* <div className="col-12  order-2 order-md-2">
                   <div className="main-sidebar">
                     <div className="single-sidebar-widget">
                       <div className="wid-title">
@@ -168,9 +168,9 @@ export default function ServiceDetails() {
                           <Link href="/tel:+2085550112">+208-555-0112</Link>
                         </h5>
                       </div>
-                    </div> */}
+                    </div>  
                   </div>
-                </div>
+                </div> */}
                 <div className="col-12  order-1 order-md-1">
                   <div className="service-details-items">
                     {/* <div className="details-image">

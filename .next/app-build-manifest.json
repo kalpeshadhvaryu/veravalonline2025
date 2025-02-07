@@ -26,8 +26,18 @@
     "/SAASDevelopment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/SAASDevelopment/page.js",
-      "static/css/app/SAASDevelopment/page.css"
+      "static/css/app/SAASDevelopment/page.css",
+      "static/chunks/app/SAASDevelopment/page.js"
+    ],
+    "/AppointmentBooking/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/AppointmentBooking/page.js"
+    ],
+    "/project-carousel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/project-carousel/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
