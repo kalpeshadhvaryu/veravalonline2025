@@ -17,10 +17,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/_not-found/page": [
+    "/TrackSalesTeam/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/TrackSalesTeam/page.js"
     ]
   }
 }
