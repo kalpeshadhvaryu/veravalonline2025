@@ -15,7 +15,7 @@ export default function Menu() {
                     </Link>
                     <ul className="submenu">
                         <li><Link href="/about">About VO</Link></li>
-                        <li><Link href="/service-carousel">Career</Link></li>
+                        <li><Link href="/career">Career</Link></li>
                         <li><Link href="/Accounts-Payments">Accounts & Payments</Link></li>
                     </ul>
                 </li>
@@ -56,7 +56,7 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li>
-                    <Link href="/project">
+                    <Link href="/Solutions">
                         Solutions
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
@@ -131,7 +131,7 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li className="has-dropdown">
-                    <Link href="/project-carousel">
+                    <Link href="/Work">
                       Our Work
                         <i className="fas fa-angle-down ps-1" />
                     </Link>

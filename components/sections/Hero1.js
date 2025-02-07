@@ -21,7 +21,7 @@ export default function Hero1() {
           <img src="/assets/img/hero/frame.png" alt="shape-img" />
         </div>
         <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
-          <img src="/assets/img/hero/mask-shape.png" alt="shape-img" />
+          <img src="/assets/img/hero/MaskShape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="row g-4 align-items-center">
@@ -33,35 +33,58 @@ export default function Hero1() {
                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
                   Excellent It Services For Your Success
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".6s">
-                    <div className="wow fadeInUp" data-wow-delay='.6' >
-                        <div className="col-6 wow fadeInUp" data-wow-delay='.6'>
-                        <ul className="list">
-                    <li>
-                      <i className="fa-regular fa-circle-check" />
-                      Webmaster Service
-                    </li>
-                    <li>
-                      <i className="fa-regular fa-circle-check" />
-                      Web & App Development
-                    </li>
-                    <li>
-                      <i className="fa-regular fa-circle-check" />
-                      Cloud Computing
-                    </li>
-                    <li>
-                      <i className="fa-regular fa-circle-check" />
-                      Cyber Security
-                    </li>
-                    <li>
-                      <i className="fa-regular fa-circle-check" />
-                      IT Infrastructure Management
-                    </li>
-                  </ul>
-                        </div>
+                
+                  <div className="row main-section wow fadeInUp" data-wow-delay=".6">
+                    <div className="col-6 wow fadeInUp" data-wow-delay=".6">
+                      <ul className="list">
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Webmaster Service
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Web & App Development
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Cloud Computing
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Cyber Security
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          IT Infrastructure Management
+                        </li>
+                      </ul>
                     </div>
+                    <div className="col-6 wow fadeInUp" data-wow-delay=".6">
+                      <ul className="list">
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Managed IT Services
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Digital Marketing & SEO
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          Designing
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          IT Consultant & Compliances
+                        </li>
+                        <li>
+                          <i className="fa-regular fa-circle-check" />
+                          AI & ML Development
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                  
-                </p>
                 <div className="hero-button">
                   <Link
                     href="/about"
@@ -77,7 +100,7 @@ export default function Hero1() {
             </div>
             <div className="col-lg-4">
               <div className="hero-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="/assets/img/hero/hero.png" alt="hero-img" />
+                <img src="/assets/img/hero/mehul-2.png" alt="hero-img" />
               </div>
             </div>
           </div>

@@ -21,10 +21,10 @@ export default function About1() {
                                             <h3><CounterUp count={6561}/>+</h3>
                                         </div>
                                     </div>
-                                    <VideoPopup style={2} />
-                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/01.jpg")' }}>
+                                    {/* <VideoPopup style={2} /> */}
+                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/about-4.png")' }}>
                                         <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                            <img src="/assets/img/about/02.jpg" alt="about-img" />
+                                            <img src="/assets/img/about/about-us-3.png" alt="about-img" />
                                         </div>
                                     </div>
                                 </div>

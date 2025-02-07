@@ -7,14 +7,14 @@ export default function Service() {
       id: 1,
       icon: "/assets/img/service/icon/s-icon-1.svg",
       title: "Webmaster  ",
-      link: "/service-details",
+      link: "/Webmaster",
       description: "Turnkey project development and management. ",
     },
     {
       id: 2,
       icon: "/assets/img/service/icon/s-icon-2.svg",
-      title: "SAAS  ",
-      link: "/service-details",
+      title: "SAAS Development  ",
+      link: "/SAASDevelopment",
       description:
         "Scalable SaaS solutions with cloud security & flexibility. ",
     },
@@ -22,7 +22,7 @@ export default function Service() {
       id: 3,
       icon: "/assets/img/service/icon/s-icon-3.svg",
       title: "Dev Ops  ",
-      link: "/service-details",
+      link: "/DevOps",
       description:
         "Automate deployments for faster, error-free software delivery. ",
     },
@@ -30,60 +30,60 @@ export default function Service() {
       id: 4,
       icon: "/assets/img/service/icon/s-icon-4.svg",
       title: "CRM/ERP  ",
-      link: "/service-details",
+      link: "CRM-ERP",
       description:
         "Enterprise Resource Planning (ERP) software for businesses. ",
     },
-    {
-      id: 5,
-      icon: "/assets/img/service/icon/s-icon-4.svg",
-      title: "Web/Apps ",
-      link: "/service-details",
-      description:
-        " Custom websites and apps with high performance and scalability.",
-    },
+    // {
+    //   id: 5,
+    //   icon: "/assets/img/service/icon/s-icon-4.svg",
+    //   title: "Web/Apps ",
+    //   link: "/service-details",
+    //   description:
+    //     " Custom websites and apps with high performance and scalability.",
+    // },
     //   {
     //     id: 6,
     //     icon: "/assets/img/service/icon/s-icon-4.svg",
     //     title: "CRM/ERP  ",
     //     link: "/service-details",
     //   },
-    {
-      id: 6,
-      icon: "/assets/img/service/icon/s-icon-4.svg",
-      title: "Software  ",
-      link: "/service-details",
-      description:
-        "Tailor-made software solutions for business automation and growth. ",
-    },
+    // {
+    //   id: 6,
+    //   icon: "/assets/img/service/icon/s-icon-4.svg",
+    //   title: "Software  ",
+    //   link: "/service-details",
+    //   description:
+    //     "Tailor-made software solutions for business automation and growth. ",
+    // },
     {
       id: 7,
       icon: "/assets/img/service/icon/s-icon-4.svg",
-      title: "Android/IOS  ",
-      link: "/service-details",
+      title: "Android-IOS Apps ",
+      link: "/Android-IOSApps",
       description: "High-performance mobile apps for Android & iOS growth. ",
     },
     {
       id: 8,
       icon: "/assets/img/service/icon/s-icon-4.svg",
       title: "Open Source ",
-      link: "/service-details",
+      link: "/OpenSource",
       description:
         "Custom open-source development for flexible, cost-effective solutions.  ",
     },
     {
       id: 9,
       icon: "/assets/img/service/icon/s-icon-4.svg",
-      title: "Hire Developers ",
-      link: "/service-details",
-      description: "Get expert developers for web, app, and software projects.",
+      title: "Designing   ",
+      link: "/Designing",
+      description: " creative UI/UX designers to enhance user experience",
     },
     {
       id: 10,
       icon: "/assets/img/service/icon/s-icon-4.svg",
-      title: "Hire Designers ",
-      link: "/service-details",
-      description: "Hire creative UI/UX designers to enhance user experience.",
+      title: "Digital Marketing ",
+      link: "/DigitalMarketing",
+      description: "Boost your brand's visibility and growth with expert digital marketing services.",
     },
   ];
 

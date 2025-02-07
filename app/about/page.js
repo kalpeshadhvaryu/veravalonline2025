@@ -29,9 +29,9 @@ export default function About() {
                                                     <p>Of Experience</p>
                                                 </div>
                                             </div>
-                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/03.png")' }}>
+                                            <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/03 (1).png")' }}>
                                                 <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                                    <img src="/assets/img/about/04.jpg" alt="about-img" />
+                                                    <img src="/assets/img/about/04(4).jpg" alt="about-img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -466,7 +466,7 @@ export default function About() {
                     <div className="brand-section fix section-padding pt-0">
                         <div className="container">
                             <div className="brand-wrapper">
-                                <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">1k + Trusted by Leading Brands</h6>
+                                <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">  Trusted by Leading Brands</h6>
                                 <BrandSlider1 />
                             </div>
                         </div>

@@ -6,7 +6,7 @@ export default function ProjectDetails() {
       <Layout
         headerStyle={1}
         footerStyle={1}
-        breadcrumbTitle="Logistics & Transport  "
+        breadcrumbTitle="Insurance & Management"
       >
         <section className="Project-details-section fix section-padding">
           <div className="container">
@@ -14,9 +14,9 @@ export default function ProjectDetails() {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="project-details-items">
-                    <div className="details-image">
+                    {/* <div className="details-image">
                       <img src="/assets/img/project/details.jpg" alt="img" />
-                    </div>
+                    </div> */}
                     <div className="row g-4 justify-content-between">
                       <div className="col-lg-12">
                         <div className="details-content pt-5">

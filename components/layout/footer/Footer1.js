@@ -21,11 +21,9 @@ export default function Footer1() {
                   <div className="widget-head">
                     <Link href="/">
                       <img
-                        src="/assets/img/logo/veravalonline-logo-new-white.png"
+                        src="/assets/img/logo/VOLOGOWHITE.svg"
                         alt="logo-img"
-                        style={{
-                          width: "300px",
-                        }}
+                        
                       />
                     </Link>
                   </div>
@@ -55,7 +53,7 @@ export default function Footer1() {
                 </div>
               </div>
               <div
-                className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+                className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
                 data-wow-delay=".5s"
               >
                 <div className="single-footer-widget">
@@ -150,19 +148,19 @@ export default function Footer1() {
                 </div>
               </div>
               <div
-                className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+                className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay=".7s"
               >
                 <div className="single-footer-widget style-margin">
                   <div className="widget-head">
-                    <h3>Our Certifications </h3>
+                    <h3> Certifications </h3>
                   </div>
                   <div className="recent-post-area">
                     <div className="recent-post-items">
                       <div className="thumb">
-                        <img src="/assets/img/news/pp1.jpg" alt="post-img" />
+                        <img src="/assets/img/news/duns-registered-solutions-logo.png" alt="post-img" />
                       </div>
-                      <div className="content">
+                      {/* <div className="content">
                         <ul className="post-date">
                           <li>
                             <i className="fa-solid fa-calendar-days me-2" />
@@ -175,9 +173,9 @@ export default function Footer1() {
                             Technology Trend In 2024
                           </Link>
                         </h6>
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="recent-post-items mb-0">
+                    {/* <div className="recent-post-items mb-0">
                       <div className="thumb">
                         <img src="/assets/img/news/pp2.jpg" alt="post-img" />
                       </div>
@@ -195,7 +193,7 @@ export default function Footer1() {
                           </Link>
                         </h6>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

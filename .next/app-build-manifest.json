@@ -17,11 +17,38 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
+    ],
+    "/service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service/page.js"
+    ],
     "/Webmaster/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/Webmaster/page.css",
       "static/chunks/app/Webmaster/page.js"
+    ],
+    "/blogs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blogs/page.js"
+    ],
+    "/career/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/career/page.css",
+      "static/chunks/app/career/page.js"
+    ],
+    "/Accounts-Payments/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Accounts-Payments/page.js"
     ],
     "/SAASDevelopment/page": [
       "static/chunks/webpack.js",
@@ -29,21 +56,16 @@
       "static/css/app/SAASDevelopment/page.css",
       "static/chunks/app/SAASDevelopment/page.js"
     ],
-    "/AppointmentBooking/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/AppointmentBooking/page.js"
-    ],
-    "/project-carousel/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/project-carousel/page.js"
-    ],
     "/DevOps/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/DevOps/page.css",
       "static/chunks/app/DevOps/page.js"
+    ],
+    "/Solutions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Solutions/page.js"
     ],
     "/ERP-CRM/page": [
       "static/chunks/webpack.js",
@@ -51,37 +73,17 @@
       "static/css/app/ERP-CRM/page.css",
       "static/chunks/app/ERP-CRM/page.js"
     ],
-    "/service/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/page.js"
-    ],
-    "/Android-IOSApps/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Android-IOSApps/page.css",
-      "static/chunks/app/Android-IOSApps/page.js"
-    ],
     "/OpenSource/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/OpenSource/page.css",
       "static/chunks/app/OpenSource/page.js"
     ],
-    "/about/page": [
+    "/Android-IOSApps/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
-    "/project/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/project/page.js"
-    ],
-    "/team/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/team/page.js"
+      "static/css/app/Android-IOSApps/page.css",
+      "static/chunks/app/Android-IOSApps/page.js"
     ],
     "/Designing/page": [
       "static/chunks/webpack.js",
@@ -95,15 +97,15 @@
       "static/css/app/DigitalMarketing/page.css",
       "static/chunks/app/DigitalMarketing/page.js"
     ],
-    "/service-carousel/page": [
+    "/TrackSalesTeam/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/service-carousel/page.js"
+      "static/chunks/app/TrackSalesTeam/page.js"
     ],
-    "/OrderManagement/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/OrderManagement/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

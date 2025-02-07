@@ -15,9 +15,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/01.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Technology</p>
+                                             
                                             <h4>
-                                                <Link href="/project-details">Platform Integration</Link>
+                                            <Link href="/TrackSalesTeam">Track Sales Team </Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -28,9 +28,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/02.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Security</p>
+                                       
                                             <h4>
-                                                <Link href="/project-details">Network Security</Link>
+                                            <Link href="/OrderManagement">Order Management</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -41,9 +41,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/03.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Solution</p>
+                                             
                                             <h4>
-                                                <Link href="/project-details">Web Development</Link>
+                                            <Link href="/LogisticsTransport">Logistics & Transport</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -54,9 +54,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/04.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Technology</p>
+                                             
                                             <h4>
-                                                <Link href="/project-details">IT Management</Link>
+                                            <Link href="/RecruitmentHR">Recruitment & HR</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -67,9 +67,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/10.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Technology</p>
+                                             
                                             <h4>
-                                                <Link href="/project-details">Design Solutions</Link>
+                                            <Link href="/InsuranceManagement">Insurance Management</Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -80,9 +80,9 @@ export default function Project() {
                                     <div className="project-image">
                                         <img src="/assets/img/project/11.jpg" alt="project-img" />
                                         <div className="project-content">
-                                            <p>Technology</p>
+                                            
                                             <h4>
-                                                <Link href="/project-details">Software Development</Link>
+                                            <Link href="/AppointmentBooking">Appointment & Booking</Link>
                                             </h4>
                                         </div>
                                     </div>

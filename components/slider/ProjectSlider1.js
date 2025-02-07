@@ -5,7 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
+    modules: [  Pagination, Navigation],
     spaceBetween: 30,
     speed: 1500,
     loop: true,
@@ -48,13 +48,13 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/01.jpg" alt="project-img" />
+                                <img src="/assets/img/project/TrackSalesTeam.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Manufacturing</p> */}
                                     <h4>
-                                        <Link href="/project-details">Manufacturing</Link>
+                                        <Link href="/TrackSalesTeam">Track Sales Team</Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/TrackSalesTeam" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -64,13 +64,13 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/02.jpg" alt="project-img" />
+                                <img src="/assets/img/project/OrderManagement.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Order Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Order Management  </Link>
+                                        <Link href="/OrderManagement">Order Management  </Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/OrderManagement" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -80,13 +80,13 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/03.jpg" alt="project-img" />
+                                <img src="/assets/img/project/LogisticsTransport.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Operation Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Operation Management</Link>
+                                        <Link href="/LogisticsTransport">Logistics & Transport  </Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/LogisticsTransport" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -96,13 +96,13 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/04.jpg" alt="project-img" />
+                                <img src="/assets/img/project/RecruitmentHR.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Technology</p> */}
                                     <h4>
-                                        <Link href="/project-details">Technology</Link>
+                                        <Link href="/RecruitmentHR">Recruitment & HR</Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/RecruitmentHR" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -112,13 +112,13 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/03.jpg" alt="project-img" />
+                                <img src="/assets/img/project/InsuranceManagement.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Process Management</p> */}
                                     <h4>
-                                        <Link href="/project-details">Process Management</Link>
+                                        <Link href="/InsuranceManagement">Insurance Management</Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/InsuranceManagement" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -128,35 +128,20 @@ export default function ProjectSlider1({ showDots }) {
                     <SwiperSlide>
                         <div className="project-items">
                             <div className="project-image">
-                                <img src="/assets/img/project/04.jpg" alt="project-img" />
+                                <img src="/assets/img/project/AppointmentBooking.jpg" alt="project-img" />
                                 <div className="project-content">
                                     {/* <p>Legal & Compliance</p> */}
                                     <h4>
-                                        <Link href="/project-details">Legal & Compliance  </Link>
+                                        <Link href="/AppointmentBooking">Appointment Booking </Link>
                                     </h4>
-                                    <Link href="/project-details" className="icon">
+                                    <Link href="/AppointmentBooking" className="icon">
                                         <i className="fa-solid fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="project-items">
-                            <div className="project-image">
-                                <img src="/assets/img/project/04.jpg" alt="project-img" />
-                                <div className="project-content">
-                                    {/* <p>Cloud File Storage </p> */}
-                                    <h4>
-                                        <Link href="/project-details">Cloud File Storage </Link>
-                                    </h4>
-                                    <Link href="/project-details" className="icon">
-                                        <i className="fa-solid fa-arrow-right" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                   
                 </Swiper>
 
                 {showDots &&

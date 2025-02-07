@@ -72,7 +72,7 @@ export default function Header1({
         </div>
         <div
           id="header-sticky"
-          className={`header-1 ${scroll ? "sticky" : ""}`}
+          className={`header-1 ${scroll ? " " : ""}`}
         >
           <div className="container-fluid">
             <div className="mega-menu-wrapper">

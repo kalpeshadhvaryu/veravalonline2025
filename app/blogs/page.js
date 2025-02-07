@@ -5,8 +5,8 @@ export default function NewsStandard() {
 
     return (
         <>
-
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Standard">
+ 
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog  ">
                 <section className="news-standard fix section-padding">
                     <div className="container">
                         <div className="row g-4">

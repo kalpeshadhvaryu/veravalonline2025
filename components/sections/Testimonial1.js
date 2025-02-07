@@ -9,7 +9,7 @@ import { Link } from "lucide-react";
 
 const testimonials = [
   {
-    image: "assets/img/testimonial/01.jpg",
+    image: "assets/img/testimonial/2.jpg",
     name: "Dr Vikram Patel  ",
     position: "Founder  ",
     text: "“I push them beyond their limit and they have touched it. I believed in them and they got succeed. Our ERP works perfectly fine and covers all the aspects”",
@@ -17,7 +17,7 @@ const testimonials = [
     link:"https://ruralrisk.in/"
   },
   {
-    image: "assets/img/testimonial/01.jpg",
+    image: "assets/img/testimonial/4.jpg",
     name: "Jordan Kenn",
     position: "WebMaster  ",
     text: "“They are not our developer or webmaster they are our partner so if we have done something so they are the onces behind the scene.”",
@@ -25,7 +25,7 @@ const testimonials = [
     link:"https://www.solostream.com/"
   },
   {
-    image: "assets/img/testimonial/01.jpg",
+    image: "assets/img/testimonial/3.jpg",
     name: "NR  ",
     position: "C.E.O  ",
     text: "“Our manufacturing process was very outdated and I had something in my mind and now exactlly we have been delivered.”",
@@ -33,7 +33,7 @@ const testimonials = [
     link:"https://www.victoriaregalia.com/"
   },
   {
-    image: "assets/img/testimonial/01.jpg",
+    image: "assets/img/testimonial/5.jpg",
     name: "R Thummar  ",
     position: "C.E.O  ",
     text: "I always supplied and get notified for new tools on my website. Not only that, we have been ranking well over a year and still growing",
@@ -41,7 +41,7 @@ const testimonials = [
     link:"https://www.jrpimpex.com/"
   },
   {
-    image: "assets/img/testimonial/01.jpg",
+    image: "assets/img/testimonial/1.jpg",
     name: "Tushhar Nikam    ",
     position: "Manager",
     text: "“The service was quick and fast. Just solved my problem on a click . Recommend”",

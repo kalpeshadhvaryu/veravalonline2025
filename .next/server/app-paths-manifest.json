@@ -1,8 +1,11 @@
 {
-  "/team/page": "app/team/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/Android-IOSApps/page": "app/Android-IOSApps/page.js",
-  "/DigitalMarketing/page": "app/DigitalMarketing/page.js",
-  "/service-carousel/page": "app/service-carousel/page.js",
   "/page": "app/page.js",
-  "/OrderManagement/page": "app/OrderManagement/page.js"
+  "/Accounts-Payments/page": "app/Accounts-Payments/page.js",
+  "/about/page": "app/about/page.js",
+  "/ERP-CRM/page": "app/ERP-CRM/page.js",
+  "/Designing/page": "app/Designing/page.js",
+  "/OpenSource/page": "app/OpenSource/page.js",
+  "/DevOps/page": "app/DevOps/page.js"
 }
