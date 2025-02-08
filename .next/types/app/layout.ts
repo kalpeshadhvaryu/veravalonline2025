@@ -1,4 +1,4 @@
-// File: C:\xampp\htdocs\veravalonline2025\app\layout.js
+// File: /Applications/MAMP/htdocs/veravalonline/veravalonline2025/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
