@@ -10,7 +10,7 @@ export default function Achievement1() {
                         <div className="section-title mb-0">
                             <span className="text-white wow fadeInUp">achievement</span>
                             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                                We Are Increasing  Business Success
+                            Defining Our Commitment to Excellence.
                             </h2>
                         </div>
                         <div className="counter-area">
@@ -19,7 +19,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/01.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={6561}/>+</h2>
+                                    <h2><CounterUp count={500}/>+</h2>
                                     <p>Satisfied Clients</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/02.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={600}/>+</h2>
+                                    <h2><CounterUp count={1500}/>+</h2>
                                     <p>Finished Projects</p>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/03.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={250}/>+</h2>
+                                    <h2><CounterUp count={30}/>+</h2>
                                     <p>Skilled Experts</p>
                                 </div>
                             </div>
@@ -46,10 +46,14 @@ export default function Achievement1() {
                                     <img src="/assets/img/achievement-icon/04.svg" alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h2><CounterUp count={590}/>+</h2>
+                                    <h2><CounterUp count={5000}/>+</h2>
                                     <p>Media Posts</p>
                                 </div>
                             </div>
+
+
+
+                            
                         </div>
                     </div>
                 </div>

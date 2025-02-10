@@ -179,7 +179,7 @@ export default function Service1() {
               <span className="wow fadeInUp">IT services</span>
               <h2 className="wow fadeInUp" data-wow-delay=".3s">
                 {/* We Solve IT Problems <br /> With Technology */}
-                Since 2008, Trusted Webmaster <br /> Services for Every Industry
+                Since 2008, delivering seamless technology, <br /> impactful branding & results-driven marketing.
               </h2>
             </div>
             <div className="array-button">

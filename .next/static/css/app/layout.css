@@ -16178,7 +16178,7 @@ span {
   left: 25px;
   content: "";
   height: 1px;
-  width: 480px;
+  width: 440px;
   background-color: var(--border);
 }
 @media (max-width: 1399px) {
@@ -16192,7 +16192,7 @@ span {
   right: 25px;
   content: "";
   height: 1px;
-  width: 480px;
+  width: 440px;
   background-color: var(--border);
 }
 @media (max-width: 1399px) {
@@ -17040,7 +17040,7 @@ span {
 }
 .achievement-wrapper .counter-area .counter-items:not(:last-child) {
   border-right: 1px solid var(--border3);
-  padding-right: 70px;
+  padding-right: 100px;
 }
 @media (max-width: 1199px) {
   .achievement-wrapper .counter-area .counter-items:not(:last-child) {
@@ -21585,7 +21585,10 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding-top: 80px;
+padding-right: 0px;
+padding-bottom: 40px;
+padding-left: 0px;
 }
 @media (max-width: 1199px) {
   .section-padding {
