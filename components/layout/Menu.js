@@ -25,7 +25,7 @@ export default function Menu() {
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     <ul className="submenu">
-                    <li><Link href="/service-details">Webmaster</Link></li>
+                    <li><Link href="/Webmaster">Webmaster</Link></li>
                         <li><Link href="/service-details">SAAS Development</Link></li>
                         <li><Link href="/service-details">Dev Ops</Link></li>
                         <li><Link href="/service-details">ERP/CRM</Link></li>
